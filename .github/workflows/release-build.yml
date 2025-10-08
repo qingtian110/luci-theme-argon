@@ -1,9 +1,7 @@
 name: Build Packages
 
 on:
-  push:
-    tags:
-      - "*"
+  workflow_dispatch:
 
 jobs:
   build:
